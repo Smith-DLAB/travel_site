@@ -1,3 +1,90 @@
-body {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --PrimaryColor: hsl(199,100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    /* --gradientColor: linear-gradient(to-right, hsl(187, 85%, 43%), hsl(199, 100%, 33%)); */
+    --gradientColor : #63999c ;
+    --whiteColor: hsl(254,33,44);
+    --blackColor: hsl();
+    --textColor: hsl();
+    --whiteColorDeam: hsl(254,33,44);
+    --greyText: rgb();
+    --inputColor: rgb();
+    --bodyColor: rgb();
+    --cardBG: rgb();
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0.2rem;
+}
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;   
+}
+
+.btn {
+    padding: .6rem 1.5rem;
+    background: var(--gradientColor);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn a {
+    color: var(--whiteColor);
+    font-weight: 5rem;
+}
+
+.btn:hover{
+    background: var(--SecondaryColor) ;
+}
+
+img, video{
+    width: 100%;
+    height: auto;
+}
+
+input{
+    font-size: 100%;
+}
+
+body{
+    background: var(--bodyColor);
+}
+
+/*  */
+
+
